@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="10"
+        android:minSdkVersion="14"
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -28,7 +28,7 @@
             android:name="com.sunshine.android.carubook.sunshine.app.DetailActivity"
             android:label="@string/title_activity_detail"
             android:parentActivityName="com.sunshine.android.carubook.sunshine.app.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sunshine.android.carubook.sunshine.app.MainActivity" />
@@ -37,7 +37,7 @@
             android:name="com.sunshine.android.carubook.sunshine.app.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:parentActivityName="com.sunshine.android.carubook.sunshine.app.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sunshine.android.carubook.sunshine.app.MainActivity" />
